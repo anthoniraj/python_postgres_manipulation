@@ -8,4 +8,5 @@ cur.execute("select * from employee")
 for row in cur.fetchall():
     print(row[1])
 
+cur.close()
 conn.close()
